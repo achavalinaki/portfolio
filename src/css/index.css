@@ -1,7 +1,7 @@
 @import url("./tailwind.css");
 
 body {
-  background-image: url("../../images/top-view-arrangement-natural-material-stationery.jpg");
+  background-image: url("./images/top-view-arrangement-natural-material-stationery.jpg");
   background-size: cover;
   background-position: bottom;
   margin: 0px;
