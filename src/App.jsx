@@ -21,14 +21,14 @@ const links = [
   },
   {
     title: "Projects",
-    url: "https://drive.google.com/drive/folders/1vO3s2X67tQzWe4e1yB9QS1TqBqQbHkP5?usp=sharing"
+    url: "https://drive.google.com/drive/folders/1bfM6buzRFv7HsxrtT1BB6Vv-xXo6lg9b"
   },
 ]
 
 function App() {
   return (
     <div className='container h-full flex flex-col items-center justify-start md:p-20'>
-      <img src="./images/profileImage.jpg" alt="" className='rounded-full w-32 h-32 object-cover' />
+      <img src="./images/profileImage.jpg" alt="" class="rounded-full w-32 h-32 object-cover mt-10 md:mt-0 lg:mt-0 xl:mt-0" />
       <h1 className='text-black w-fit text-2xl'>Iñaki Achaval</h1>
       <h2 className='text-black w-fit text-2xl mt-2'>Community manager & Content creator</h2>
       <ul className='w-96 flex flex-col items-center justify-start mt-10 space-y-10'>

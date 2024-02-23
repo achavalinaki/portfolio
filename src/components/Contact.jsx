@@ -32,7 +32,7 @@ export const Contact = () => {
     const handleOnSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_gd1o5wf', 'template_osofliw', e.target, 'RbDs3jqEF-J_5qbsG')
+        emailjs.sendForm('service_gdqstuh', 'template_rx1vc6v', e.target, 'RbDs3jqEF-J_5qbsG')
             .then(() => {
                 setResponse(succesfullEmail);
             }, () => {
